@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: stg_vessels
+    description: "Raw vessel data staging model."
+    columns:
+      - name: mmsi
+        tests:
+          - not_null
+      - name: reporting_year
+        tests:
+          - not_null
+
+  - name: stg_mmsi_daily
+    description: "Raw activity staging model with spatial and temporal attributes."
+    columns:
+      - name: event_date
+        tests:
+          - not_null
+      - name: mmsi
+        tests:
+          - not_null
+      - name: lat
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: -90
+              max_value: 90
+      - name: lon
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: -180
+              max_value: 180
+
+  - name: stg_fleet_daily
+    description: "Raw fleet daily activity staging model."
+    columns:
+      - name: event_date
+        tests:
+          - not_null
+      - name: lat
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: -90
+              max_value: 90
+      - name: lon
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: -180
+              max_value: 180

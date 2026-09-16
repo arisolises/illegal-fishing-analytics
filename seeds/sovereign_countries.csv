@@ -1,0 +1,235 @@
+flag_code,country_name,sovereign_country_code,sovereign_country_name
+BWA,Botswana,BWA,Botswana
+TCD,Chad,TCD,Chad
+GIB,Gibraltar,GBR,United Kingdom
+SUR,Suriname,SUR,Suriname
+WSM,Samoa,WSM,Samoa
+LKA,Sri Lanka,LKA,Sri Lanka
+SLB,Solomon Islands,SLB,Solomon Islands
+HND,Honduras,HND,Honduras
+LSO,Lesotho,LSO,Lesotho
+MYS,Malaysia,MYS,Malaysia
+TGO,Togo,TGO,Togo
+REU,Reunion,FRA,France
+SSD,South Sudan,SSD,South Sudan
+ZAF,South Africa,ZAF,South Africa
+HKG,Hong Kong,CHN,China
+GNQ,Equatorial Guinea,GNQ,Equatorial Guinea
+MDG,Madagascar,MDG,Madagascar
+GUF,French Guiana,FRA,France
+GLP,Guadeloupe,FRA,France
+VGB,British Virgin Islands,GBR,United Kingdom
+ETH,Ethiopia,ETH,Ethiopia
+NAM,Namibia,NAM,Namibia
+CPV,Cabo Verde,CPV,Cabo Verde
+UZB,Uzbekistan,UZB,Uzbekistan
+LBN,Lebanon,LBN,Lebanon
+MAC,Macao,CHN,China
+CMR,Cameroon,CMR,Cameroon
+MRT,Mauritania,MRT,Mauritania
+BRN,Brunei,BRN,Brunei
+FLK,Falkland Islands,GBR,United Kingdom
+LBR,Liberia,LBR,Liberia
+MMR,Myanmar,MMR,Myanmar
+URY,Uruguay,URY,Uruguay
+SHN,Saint Helena,GBR,United Kingdom
+DMA,Dominica,DMA,Dominica
+TUN,Tunisia,TUN,Tunisia
+HUN,Hungary,HUN,Hungary
+SWZ,Eswatini,SWZ,Eswatini
+CZE,Czechia,CZE,Czechia
+TKM,Turkmenistan,TKM,Turkmenistan
+BEN,Benin,BEN,Benin
+CIV,Cote d'Ivoire,CIV,Cote d'Ivoire
+PRY,Paraguay,PRY,Paraguay
+CHE,Switzerland,CHE,Switzerland
+JAM,Jamaica,JAM,Jamaica
+WLF,Wallis and Futuna,FRA,France
+ROU,Romania,ROU,Romania
+PYF,French Polynesia,FRA,France
+IMN,Isle of Man,GBR,United Kingdom
+DEU,Germany,DEU,Germany
+PSE,Palestine,PSE,Palestine
+SYR,Syria,SYR,Syria
+BLR,Belarus,BLR,Belarus
+SLE,Sierra Leone,SLE,Sierra Leone
+IND,India,IND,India
+RUS,Russia,RUS,Russia
+KEN,Kenya,KEN,Kenya
+ARE,United Arab Emirates,ARE,United Arab Emirates
+MNP,Northern Mariana Islands,USA,United States
+SGP,Singapore,SGP,Singapore
+GAB,Gabon,GAB,Gabon
+ABW,Aruba,NLD,Netherlands
+CHN,China,CHN,China
+NOR,Norway,NOR,Norway
+PNG,Papua New Guinea,PNG,Papua New Guinea
+POL,Poland,POL,Poland
+LTU,Lithuania,LTU,Lithuania
+RWA,Rwanda,RWA,Rwanda
+MUS,Mauritius,MUS,Mauritius
+GHA,Ghana,GHA,Ghana
+SYC,Seychelles,SYC,Seychelles
+MOZ,Mozambique,MOZ,Mozambique
+LCA,Saint Lucia,LCA,Saint Lucia
+BGD,Bangladesh,BGD,Bangladesh
+UGA,Uganda,UGA,Uganda
+MNE,Montenegro,MNE,Montenegro
+COK,Cook Islands,NZL,New Zealand
+GBR,United Kingdom,GBR,United Kingdom
+NRU,Nauru,NRU,Nauru
+GMB,Gambia,GMB,Gambia
+ALB,Albania,ALB,Albania
+GNB,Guinea-Bissau,GNB,Guinea-Bissau
+TJK,Tajikistan,TJK,Tajikistan
+PHL,Philippines,PHL,Philippines
+TTO,Trinidad and Tobago,TTO,Trinidad and Tobago
+UNKNOWN,Unknown,,Unknown
+CRI,Costa Rica,CRI,Costa Rica
+VAT,Holy See,VAT,Holy See
+AZE,Azerbaijan,AZE,Azerbaijan
+YEM,Yemen,YEM,Yemen
+CCK,Cocos (Keeling) Islands,AUS,Australia
+BDI,Burundi,BDI,Burundi
+ITA,Italy,ITA,Italy
+PRT,Portugal,PRT,Portugal
+JOR,Jordan,JOR,Jordan
+PRK,North Korea,PRK,North Korea
+CHL,Chile,CHL,Chile
+KWT,Kuwait,KWT,Kuwait
+BRB,Barbados,BRB,Barbados
+OMN,Oman,OMN,Oman
+GRC,Greece,GRC,Greece
+BFA,Burkina Faso,BFA,Burkina Faso
+KOR,South Korea,KOR,South Korea
+PAN,Panama,PAN,Panama
+AIA,Anguilla,GBR,United Kingdom
+BTN,Bhutan,BTN,Bhutan
+NZL,New Zealand,NZL,New Zealand
+COD,DR Congo,COD,DR Congo
+IRN,Iran,IRN,Iran
+BRA,Brazil,BRA,Brazil
+AUS,Australia,AUS,Australia
+SWE,Sweden,SWE,Sweden
+VIR,U.S. Virgin Islands,USA,United States
+PLW,Palau,PLW,Palau
+TKL,Tokelau,NZL,New Zealand
+VUT,Vanuatu,VUT,Vanuatu
+TZA,Tanzania,TZA,Tanzania
+ATF,French Southern Territories,FRA,France
+GIN,Guinea,GIN,Guinea
+LIE,Liechtenstein,LIE,Liechtenstein
+NGA,Nigeria,NGA,Nigeria
+CXR,Christmas Island,AUS,Australia
+KIR,Kiribati,KIR,Kiribati
+BLZ,Belize,BLZ,Belize
+CUW,Curacao,NLD,Netherlands
+GRD,Grenada,GRD,Grenada
+MAR,Morocco,MAR,Morocco
+CUB,Cuba,CUB,Cuba
+HTI,Haiti,HTI,Haiti
+BIH,Bosnia and Herzegovina,BIH,Bosnia and Herzegovina
+ASM,American Samoa,USA,United States
+MSR,Montserrat,GBR,United Kingdom
+SRB,Serbia,SRB,Serbia
+AGO,Angola,AGO,Angola
+ARG,Argentina,ARG,Argentina
+AFG,Afghanistan,AFG,Afghanistan
+BHR,Bahrain,BHR,Bahrain
+CAF,Central African Republic,CAF,Central African Republic
+SVN,Slovenia,SVN,Slovenia
+COG,Congo,COG,Congo
+THA,Thailand,THA,Thailand
+EGY,Egypt,EGY,Egypt
+UNK,Unknown,,Unknown
+GTM,Guatemala,GTM,Guatemala
+NIU,Niue,NZL,New Zealand
+LBY,Libya,LBY,Libya
+PRI,Puerto Rico,USA,United States
+ESH,Western Sahara,MAR,Morocco
+BEL,Belgium,BEL,Belgium
+PCN,Pitcairn Islands,GBR,United Kingdom
+COM,Comoros,COM,Comoros
+MLI,Mali,MLI,Mali
+VNM,Vietnam,VNM,Vietnam
+JPN,Japan,JPN,Japan
+FRA,France,FRA,France
+TON,Tonga,TON,Tonga
+IRL,Ireland,IRL,Ireland
+GRL,Greenland,DNK,Denmark
+MCO,Monaco,MCO,Monaco
+ERI,Eritrea,ERI,Eritrea
+SOM,Somalia,SOM,Somalia
+KNA,Saint Kitts and Nevis,KNA,Saint Kitts and Nevis
+KAZ,Kazakhstan,KAZ,Kazakhstan
+SPM,Saint Pierre and Miquelon,FRA,France
+FRO,Faroe Islands,DNK,Denmark
+VCT,Saint Vincent and the Grenadines,VCT,Saint Vincent and the Grenadines
+MDA,Moldova,MDA,Moldova
+ISR,Israel,ISR,Israel
+ZWE,Zimbabwe,ZWE,Zimbabwe
+BGR,Bulgaria,BGR,Bulgaria
+PER,Peru,PER,Peru
+TWN,Taiwan,TWN,Taiwan
+PAK,Pakistan,PAK,Pakistan
+MLT,Malta,MLT,Malta
+MTQ,Martinique,FRA,France
+BOL,Bolivia,BOL,Bolivia
+EST,Estonia,EST,Estonia
+SMR,San Marino,SMR,San Marino
+LAO,Laos,LAO,Laos
+MHL,Marshall Islands,MHL,Marshall Islands
+SAU,Saudi Arabia,SAU,Saudi Arabia
+ARM,Armenia,ARM,Armenia
+NPL,Nepal,NPL,Nepal
+GUY,Guyana,GUY,Guyana
+MDV,Maldives,MDV,Maldives
+MEX,Mexico,MEX,Mexico
+AUT,Austria,AUT,Austria
+LVA,Latvia,LVA,Latvia
+VEN,Venezuela,VEN,Venezuela
+NER,Niger,NER,Niger
+UKR,Ukraine,UKR,Ukraine
+SJM,Svalbard and Jan Mayen,NOR,Norway
+AND,Andorra,AND,Andorra
+IRQ,Iraq,IRQ,Iraq
+MWI,Malawi,MWI,Malawi
+ESP,Spain,ESP,Spain
+SEN,Senegal,SEN,Senegal
+TCA,Turks and Caicos Islands,GBR,United Kingdom
+CYM,Cayman Islands,GBR,United Kingdom
+IDN,Indonesia,IDN,Indonesia
+ECU,Ecuador,ECU,Ecuador
+CYP,Cyprus,CYP,Cyprus
+ISL,Iceland,ISL,Iceland
+KGZ,Kyrgyzstan,KGZ,Kyrgyzstan
+DJI,Djibouti,DJI,Djibouti
+SVK,Slovakia,SVK,Slovakia
+FSM,Micronesia,FSM,Micronesia
+BHS,Bahamas,BHS,Bahamas
+QAT,Qatar,QAT,Qatar
+ZMB,Zambia,ZMB,Zambia
+MKD,North Macedonia,MKD,North Macedonia
+GEO,Georgia,GEO,Georgia
+KHM,Cambodia,KHM,Cambodia
+HRV,Croatia,HRV,Croatia
+NLD,Netherlands,NLD,Netherlands
+LUX,Luxembourg,LUX,Luxembourg
+MNG,Mongolia,MNG,Mongolia
+SDN,Sudan,SDN,Sudan
+STP,Sao Tome and Principe,STP,Sao Tome and Principe
+FIN,Finland,FIN,Finland
+SLV,El Salvador,SLV,El Salvador
+TUV,Tuvalu,TUV,Tuvalu
+DNK,Denmark,DNK,Denmark
+USA,United States,USA,United States
+TUR,Turkey,TUR,Turkey
+BES,"Bonaire, Sint Eustatius and Saba",NLD,Netherlands
+DZA,Algeria,DZA,Algeria
+COL,Colombia,COL,Colombia
+NCL,New Caledonia,NCL,New Caledonia
+CAN,Canada,CAN,Canada
+FJI,Fiji,FJI,Fiji
+ATG,Antigua and Barbuda,ATG,Antigua and Barbuda
+BMU,Bermuda,BMU,Bermuda
+NIC,Nicaragua,NIC,Nicaragua

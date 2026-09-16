@@ -1,0 +1,122 @@
+version: 2
+
+models:
+  - name: dim_eez
+    description: "Gold dimension model for EEZs."
+    columns:
+      - name: eez_id
+        tests:
+          - unique
+          - not_null
+
+      - name: eez_name
+        tests:
+          - not_null
+
+  - name: dim_vessels
+    description: "Gold dimension model with composite primary key (mmsi + reporting_year)."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - mmsi
+            - reporting_year
+    columns:
+      - name: mmsi
+        tests:
+          - not_null
+
+      - name: reporting_year
+        tests:
+          - not_null
+
+      - name: risk_level
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['low', 'medium', 'high']
+
+      - name: impact_level
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['low', 'medium', 'high']
+
+      - name: risk_impact_segment
+        tests:
+          - not_null
+
+  - name: fct_fishing_daily_activity
+    description: "Gold fact table daily activity."
+    columns:
+      - name: mmsi
+        tests:
+          - not_null
+
+      - name: reporting_year
+        tests:
+          - not_null
+
+      - name: event_date
+        tests:
+          - not_null
+
+      - name: eez_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_eez')
+              field: eez_id
+
+  - name: obt_fishing_daily_activity
+    description: "Denormalized OBT powering report aggregations."
+    columns:
+      - name: event_date
+        tests:
+          - not_null
+
+      - name: mmsi
+        tests:
+          - not_null
+
+      - name: fishing_location_type
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['high_seas', 'domestic_waters', 'foreign_waters']
+
+  - name: rpt_foreign_fishing_monthly
+    description: "Aggregated reporting dataset for monthly foreign fishing activity."
+    columns:
+      - name: month_year
+        tests:
+          - not_null
+
+      - name: eez_id
+        tests:
+          - not_null
+
+  - name: rpt_high_risk_foreign_fishing_grid
+    description: "Aggregated spatial grid report (0.25-degree resolution)."
+    columns:
+      - name: month_year
+        tests:
+          - not_null
+
+      - name: lat_lon_string
+        tests:
+          - not_null
+
+      - name: lat
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: -90
+                max_value: 90
+
+      - name: lon
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: -180
+                max_value: 180

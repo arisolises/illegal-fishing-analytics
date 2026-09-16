@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: silver_eez
+    description: "Silver model for Exclusive Economic Zones (EEZ)."
+    columns:
+      - name: eez_id
+        description: "Primary key for EEZ zones."
+        tests:
+          - unique
+          - not_null
+
+      - name: eez_name
+        tests:
+          - not_null
+
+      - name: is_shared_or_disputed_zone
+        tests:
+          - not_null
+
+  - name: silver_fishing_events
+    description: "Silver model for daily vessel activity and fishing events."
+    columns:
+      - name: mmsi
+        tests:
+          - not_null
+
+      - name: event_date
+        tests:
+          - not_null
+
+      - name: event_location
+        description: "Geospatial point for event tracking."
+        tests:
+          - not_null
+
+      - name: fishing_time_pct
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 1.0
+
+      - name: activity_status
+        tests:
+          - accepted_values:
+              values: ['no_activity', 'fishing', 'transit_only']
+
+  - name: silver_vessels
+    description: "Silver model for vessel attributes and flags."
+    columns:
+      - name: mmsi
+        tests:
+          - not_null
+
+      - name: reporting_year
+        tests:
+          - not_null
+
+      - name: flag_status
+        tests:
+          - accepted_values:
+              values: ['unverified', 'ais_only', 'registry_only', 'matched', 'mismatched']
+
+      - name: gear_category
+        tests:
+          - accepted_values:
+              values: ['industrial', 'industrial_distant_water', 'mixed', 'small_scale', 'unclassified']
+
+      - name: operational_status
+        tests:
+          - accepted_values:
+              values: ['inactive_or_no_signal', 'active_fishing', 'active_navigation_only']

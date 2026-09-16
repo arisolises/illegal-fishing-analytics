@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: gfw_public
+    database: global-fishing-watch
+    schema: fishing_effort_v3
+    tables:
+      - name: fishing_vessels_v3
+      - name: mmsi_daily_10_v3
+      - name: fleet_daily_100_v3
+
+  - name: gfw_bronze    
+    database: ilegal-fishing        
+    schema: gfw_bronze 
+    tables:           
+      - name: stg_eez_v12
