@@ -32,6 +32,43 @@ The reporting layer focuses on **high-risk, medium/high-impact fishing activity*
 
 > High-risk activity represents an analytical signal for investigation and should not be interpreted as proof of illegal fishing.
 
+## ⚠️ Risk & Impact Scoring
+
+To prioritize vessel activity for investigation, the project evaluates vessels across two independent dimensions: **risk** and **potential impact**.
+
+### 🚨 Risk Score
+
+Risk captures operational and registry anomalies associated with each vessel:
+
+| Signal | Score |
+|---|---:|
+| Flag mismatch or unverified flag | +5 |
+| Fishing-hours anomaly | +3 |
+| Tonnage discrepancy | +2 |
+| Engine-power discrepancy | +2 |
+| Length discrepancy | +1 |
+
+**Low:** 0 · **Medium:** 1–5 · **High:** >5
+
+### ⚓ Impact Score
+
+Impact represents the vessel's potential operational capacity based on gear type, tonnage, and engine power:
+
+| Signal | Score |
+|---|---:|
+| Industrial / distant-water gear | +5 |
+| Mixed gear | +3 |
+| Tonnage ≥ 500 GT | +3 |
+| Tonnage ≥ 200 GT | +2 |
+| Engine power ≥ 1,000 kW | +3 |
+| Engine power ≥ 400 kW | +2 |
+
+**Low:** 0 · **Medium:** 1–5 · **High:** >5
+
+The final reporting layer prioritizes **High-Risk vessels with Medium or High Impact** operating in foreign EEZs or the high seas.
+
+> These scores are analytical screening indicators designed to prioritize patterns for further investigation. They do not establish that illegal fishing occurred.
+
 ## 🗺️ Scaling Geospatial Analytics
 
 Large-scale vessel activity creates millions of geographic observations that are expensive to render directly.
@@ -71,4 +108,3 @@ Fishing activity and vessel data are sourced from **Global Fishing Watch**, an o
 **Ariel Solis**
 
 Data Scientist & Analytics Engineer
-
