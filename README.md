@@ -1,15 +1,20 @@
-Welcome to your new dbt project!
+# 🌊 Dark Fleet & Foreign Waters Analytics
 
-### Using the starter project
+> An end-to-end geospatial analytics project for exploring foreign fishing
+> activity and identifying high-risk fishing patterns across global waters.
 
-Try running the following commands:
-- dbt run
-- dbt test
+![Dashboard Overview](assets/dashboard-overview.png)
 
+## 🎯 Project Overview
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project transforms large-scale Global Fishing Watch vessel activity
+data into an analytics-ready platform for investigating fishing activity
+outside domestic waters.
+
+The solution combines data engineering, analytics engineering and
+geospatial analysis to identify patterns across vessels, flag states,
+Exclusive Economic Zones (EEZs), and time.
+
+## 🏗️ Architecture
+
+![dbt Lineage](assets/dbt-lineage.png)
